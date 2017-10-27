@@ -28,7 +28,6 @@ class PlayData {
                 }
                 
                 allWords = Array(wordCounts.keys)
-                allWords.sort() { $0.count < $1.count }
             }
         }
     }
