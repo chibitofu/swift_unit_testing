@@ -23,7 +23,7 @@ class unit_testingTests: XCTestCase {
     
     func testAllWordsLoaded() {
         let playData = PlayData()
-        XCTAssertEqual(playData.allWords.count, 384001, "allWords was not 384,001")
+        XCTAssertEqual(playData.allWords.count, 18440, "allWords was not 18,440")
     }
     
 }
