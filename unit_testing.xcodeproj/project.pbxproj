@@ -14,6 +14,8 @@
 		737285DE1FA337480058E242 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 737285DC1FA337480058E242 /* LaunchScreen.storyboard */; };
 		737285E91FA337480058E242 /* unit_testingTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 737285E81FA337480058E242 /* unit_testingTests.swift */; };
 		737285F41FA337480058E242 /* unit_testingUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 737285F31FA337480058E242 /* unit_testingUITests.swift */; };
+		737286021FA338140058E242 /* plays.txt in Resources */ = {isa = PBXBuildFile; fileRef = 737286011FA338140058E242 /* plays.txt */; };
+		737286041FA33C2E0058E242 /* PlayData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 737286031FA33C2E0058E242 /* PlayData.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +49,8 @@
 		737285EF1FA337480058E242 /* unit_testingUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = unit_testingUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		737285F31FA337480058E242 /* unit_testingUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = unit_testingUITests.swift; sourceTree = "<group>"; };
 		737285F51FA337480058E242 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		737286011FA338140058E242 /* plays.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = plays.txt; sourceTree = "<group>"; };
+		737286031FA33C2E0058E242 /* PlayData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayData.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,9 +101,11 @@
 		737285D21FA337480058E242 /* unit_testing */ = {
 			isa = PBXGroup;
 			children = (
+				737286011FA338140058E242 /* plays.txt */,
 				737285D31FA337480058E242 /* AppDelegate.swift */,
 				737285D51FA337480058E242 /* ViewController.swift */,
 				737285D71FA337480058E242 /* Main.storyboard */,
+				737286031FA33C2E0058E242 /* PlayData.swift */,
 				737285DA1FA337480058E242 /* Assets.xcassets */,
 				737285DC1FA337480058E242 /* LaunchScreen.storyboard */,
 				737285DF1FA337480058E242 /* Info.plist */,
@@ -232,6 +238,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				737286021FA338140058E242 /* plays.txt in Resources */,
 				737285DE1FA337480058E242 /* LaunchScreen.storyboard in Resources */,
 				737285DB1FA337480058E242 /* Assets.xcassets in Resources */,
 				737285D91FA337480058E242 /* Main.storyboard in Resources */,
@@ -259,6 +266,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				737286041FA33C2E0058E242 /* PlayData.swift in Sources */,
 				737285D61FA337480058E242 /* ViewController.swift in Sources */,
 				737285D41FA337480058E242 /* AppDelegate.swift in Sources */,
 			);
