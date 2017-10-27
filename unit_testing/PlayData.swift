@@ -19,8 +19,13 @@ class PlayData {
                 
                 allWords = allWords.filter{  $0 != "" }
 
+//                wordCounts = NSCountedSet(array: allWords)
+//                allWords = wordCounts.allObjects as! [String]
+                
                 wordCounts = NSCountedSet(array: allWords)
-                allWords = wordCounts.allObjects as! [String]
+                let sorted = wordCounts.allObjects.sorted {
+                    wordCounts.count(for: $0) > wordCounts.count(for: $1) }
+                    allWords = sorted as! [String]
             }
         }
     }
