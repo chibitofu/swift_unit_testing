@@ -11,7 +11,7 @@ import Foundation
 class PlayData {
     var allWords = [String]()
     var wordCounts: NSCountedSet!
-    var filteredWords = [String]()
+    private(set) var filteredWords = [String]()
     
     init() {
         if let path = Bundle.main.path(forResource: "plays", ofType: "txt") {
@@ -29,6 +29,8 @@ class PlayData {
                     allWords = sorted as! [String]
             }
         }
+        
+        applyUserFilter("swift")
     }
     
     func applyUserFilter(_ input: String) {
